@@ -44,7 +44,7 @@ function doubleArrayValues(array) {
 
 /*
 
-O(n) or linear. This algorithm is dependent on the length of the array of data. The larger the dataset, the more time it will take to compute. 
+O(n) or linear. This algorithm is dependent on the length of the array of data. The larger the dataset, the more time it will take to compute. Also, the best case and worst case scenarios are the same.
 
 */
 
@@ -59,6 +59,16 @@ function naiveSearch(array, item) {
     }
   }
 }
+
+/* 
+
+O(n) or linear. 
+
+*/
+
+
+
+
 // Creating pairs:
 function createPairs(arr) {
   for (let i = 0; i < arr.length; i++) {
