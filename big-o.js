@@ -6,6 +6,13 @@ function isEven(value) {
   else
     return false;
 }
+
+/*
+O(1) or constant. The data set will always be only one value, so there is no need to worry about future growth. Also, the algorithm does not perform any expensive actions on the value, it simply checks one condition and returns either true or false.
+*/
+
+
+
 // Are you here?
 function areYouHere(arr1, arr2) {
   for (let i = 0; i < arr1.length; i++) {
@@ -17,6 +24,16 @@ function areYouHere(arr1, arr2) {
   }
   return false;
 }
+
+/*
+
+
+
+*/
+
+
+
+
 // Doubler
 function doubleArrayValues(array) {
   for (let i = 0; i < array.length; i++) {
