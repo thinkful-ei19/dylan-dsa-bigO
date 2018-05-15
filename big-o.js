@@ -62,7 +62,7 @@ function naiveSearch(array, item) {
 
 /* 
 
-O(n) or linear. 
+O(n) or linear. Although the best case scenario is O(1), (the item is the first element in the array), all the other cases are O(n) and are dependent on the length of the dataset. 
 
 */
 
