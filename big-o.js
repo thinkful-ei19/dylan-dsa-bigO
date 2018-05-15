@@ -118,6 +118,17 @@ function generateFib(num) {
   // we return `result`.
   return result;
 }
+
+/*
+
+O(n) or linear. This algorithm is completely dependent on how many digits of the sequence you want to compute. There is only one loop and although the best and worst case scenarios are different, the computing time will grow proportionally with a larger num value.
+
+*/
+
+
+
+
+
 // An Efficient Search
 // In this example, we return to the problem of searching using a more sophisticated approach than in naive search, above.
 
