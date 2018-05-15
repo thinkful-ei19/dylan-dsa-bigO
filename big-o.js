@@ -156,6 +156,19 @@ function efficientSearch(array, item) {
   }
   return -1;
 }
+
+
+/*
+
+O(logn) or logarithmic. This search algorithm shrinks the dataset through each while loop. So, although there will be some growth in time as the dataset grows, it won't be that much.
+
+*/
+
+
+
+
+
+
 // Random element
 function findRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
