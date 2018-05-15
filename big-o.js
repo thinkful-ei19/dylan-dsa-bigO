@@ -195,3 +195,9 @@ function isPrime(n) {
   }
   return true;
 }
+
+/*
+
+O(n) or linear. The only loop in this algorithm is the only operation that may slow it down. But since you only have one number, your dataset will always be the same length and the loop will grow proportionally to the size of the number.
+
+*/
