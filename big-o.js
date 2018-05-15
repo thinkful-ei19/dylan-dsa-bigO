@@ -27,7 +27,7 @@ function areYouHere(arr1, arr2) {
 
 /*
 
-
+O(n^2) or polynomial. The algorithm's loops will result in a growth in time dependent on the growth in the dataset. The algorithm also features a nested loop, meaning squaring the big O growth.
 
 */
 
