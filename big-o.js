@@ -77,6 +77,17 @@ function createPairs(arr) {
     }
   }
 }
+
+
+/*
+
+O(n^2) or polynomial. Again, this algorithm features a nested loop so we know that we can square the size of the dataset. Also, the best and worst case scenarios are the same.
+
+*/
+
+
+
+
 // Computing fibonaccis
 // A fibonacci sequence is one where every number is the sum of the previous two numbers in the sequence. For example the following is a fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 21, 34. The first number always starts at 1 (technically it is 0). Then the second number is 0+1 = 1, the third number is the sum of the first and the second numbers (1 + 2 = 3) and the sequence continues in a similar manner.
 
