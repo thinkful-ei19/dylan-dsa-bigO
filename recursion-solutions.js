@@ -200,6 +200,16 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 
+
+/*
+
+O(n) or linear. The larger the starting number, the more operations will run.
+
+*/
+
+
+
+
 /*=================================================================================
 Exercise 8 - Fibonacci
 Write a recursive program that prints the fibonacci sequence of a given number. 
@@ -222,6 +232,16 @@ function fibonacci(n) {
   // Recursive case
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
+
+/*
+
+O(n) or linear. The larger the input number, the more operations that must run.
+
+*/
+
+
+
+
 
 /*=================================================================================
 Exercise 9 - Anagrams
@@ -255,6 +275,15 @@ function printAnagram(word) {
 
 }
 
+/*
+
+O(n^2) or polynomial. The algorithm features a recurive call within a loop. Also, as the input str grows, there will be more and more operations that need to run.
+
+*/
+
+
+
+
 /* ==============================
 Exercise 10: Animal Hierarchy
 Step through the code and find the input to the program, input to each recursive calls, 
@@ -280,6 +309,13 @@ function traverse(animalHierarchy, parent) {
     .forEach(item => node[item.id] = traverse(animalHierarchy, item.id));
   return node;
 }
+
+
+/*
+
+O(n^2) or polynomial. The algorithm has to loop over the data and then loop over the result of the first loop. Because it has a nested feature, it is a polynomial big O.
+
+*/
 
 
 /*=================================================================================*/
@@ -370,43 +406,8 @@ function traverseB(node, indent = 0) {
   }
 }
 
+/*
 
+O(n^2) or polynomial. Features a nested loop and as dataset grows, so will the number of operations.
 
-
-function main() {
-  //console.log('#1 - count sheep');
-  //countSheep(5);
-
-  //console.log('#2 - Array Doubler');
-  //let arr = [10,5,3,4];
-  //console.log(double_all(arr));
-
-  //console.log('#3 - Reverse String');
-  //console.log(reverseString("tauhida"));
-
-  //console.log('#4 - nth Triangular Number');
-  //console.log(triangle(5));
-
-  //console.log('#5 - String Splitter');
-  //console.log(split('1/21/2018', '/'));
-
-  //console.log('#6 - Binary Representation');
-  //console.log(convertToBinary(25));
-
-  //console.log('#7 - Anagrams');
-  //printAnagram("east");
-
-  //console.log('#8 - animalHierarchy');
-  //console.log(traverse(animalHierarchy, null));
-
-  //console.log('#9 - Factorial');
-  //console.log(factorial(5)); //120
-
-  //console.log('#10 - Fibonacci');
-  //console.log(fibonacci(7));
-
-  console.log('#11 - Organization Chart');
-  console.log(traverseA(organization));
-  //console.log(traverseB(organization));
-
-}
+*/
