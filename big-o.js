@@ -41,6 +41,16 @@ function doubleArrayValues(array) {
   }
   return array;
 }
+
+/*
+
+O(n) or linear. This algorithm is dependent on the length of the array of data. The larger the dataset, the more time it will take to compute. 
+
+*/
+
+
+
+
 // Naive Search
 function naiveSearch(array, item) {
   for (let i = 0; i < array.length; i++) {
