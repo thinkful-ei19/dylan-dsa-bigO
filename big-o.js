@@ -173,6 +173,15 @@ O(logn) or logarithmic. This search algorithm shrinks the dataset through each w
 function findRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
+
+/*
+
+O(1) or constant. This algorithm will always simply return a single element of the array in one operation, regardless of how big the dataset is.
+
+*/
+
+
+
 // Is it prime?
 function isPrime(n) {
   // if n is less than 2 or a decimal, it's not prime
